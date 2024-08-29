@@ -15,8 +15,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    height: 100vh;
-    padding: 20px;
+
 }
 
 .content {
@@ -25,19 +24,32 @@ body {
     margin-bottom: 20px;
 }
 
+.header {
+    text-align: left;
+    margin-left: 70px;
+    
+}
+
 h1 {
-    font-size: 2.5 rem;
+    font-size: 50px;
     margin-bottom: 10px;
+    position: absolute;
+    bottom: 330px;
 }
 
 h2 {
-    font-size: 1.5 rem;
+    font-size: 25px;
     color: #fff;
     margin-bottom: 20px;
+    position: absolute;
+    bottom: 280px;
 }
 
 nav {
-    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 60px;
+    position: absolute;
+    bottom: 250px;
 }
 
 nav a {
@@ -52,9 +64,10 @@ nav a:hover {
 }
 
 .my-picture {
-    flex: 1 1 300px;
-    text-align: right
-
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
 }
 
 .my-picture img {
@@ -63,4 +76,29 @@ nav a:hover {
     border-radius: 10px;
     height: 480px;
     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    nav a {
+        font-size: 0.875rem;
+    }
 }
