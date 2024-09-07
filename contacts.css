@@ -81,3 +81,64 @@ h1 {
     position: absolute;
     top: 120px;
 }
+
+.pic-container1 {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+
+.fb-pic img {
+    width: 272px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.pic-container2 {
+    position: absolute;
+    top: 250px;
+    left: 550px;
+}
+
+.ig-pic img {
+    width: 272px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.pic-container3 {
+    position: absolute;
+    top: 250px;
+    left: 950px;
+}
+
+.gh-pic img {
+    width: 272px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.pic-container4 {
+    position: absolute;
+    top: 450px;
+    left: 300px;
+}
+
+.email-pic img {
+    width: 272px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.pic-container5 {
+    position: absolute;
+    top: 450px;
+    left: 800px;
+}
+
+.dc-pic img {
+    width: 272px;
+    height: 80px;
+    border-radius: 5px;
+}
+
